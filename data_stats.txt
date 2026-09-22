@@ -1,0 +1,79 @@
+OCM frequency = 100.0 Hz
+b0 frequency = 1.310615989515072 Hz
+OCM frequency std = 1.0046326827634401e-14
+B0frequency std = 8.972540280669363e-15
+OCM Period (s) = 0.01
+B0 Period (s) = 0.763
+# OCM signals * ocm_period = 0.74 seconds
+/home/jayantdubey/workspace/shim_ml/dataloader.py:217: ComplexWarning: Casting complex values to real discards the imaginary part
+  ocm_window_data[data_idx, i, :, :] = ocm_window
+['datasets/OCMDATA/Scan_1_OCM_Data.mat'
+ 'datasets/B0DATA/B0dyn_scan1_processed.mat'] OCM window data shape: (4, 170, 197, 75)
+B0 data shape: (4, 170, 1464)
+
+
+OCM frequency = 100.0 Hz
+b0 frequency = 1.4598540145985404 Hz
+OCM frequency std = 3.084246592734302e-14
+B0frequency std = 5.679464155368277e-14
+OCM Period (s) = 0.01
+B0 Period (s) = 0.6849999999999999
+# OCM signals * ocm_period = 0.67 seconds
+['datasets/OCMDATA/Scan_2_OCM_Data.mat'
+ 'datasets/B0DATA/B0dyn_scan2_processed.mat'] OCM window data shape: (4, 170, 197, 67)
+B0 data shape: (4, 170, 1464)
+
+
+OCM frequency = 100.0 Hz
+b0 frequency = 1.310615989515072 Hz
+OCM frequency std = 3.191964617968146e-14
+B0frequency std = 5.748365808650477e-14
+OCM Period (s) = 0.01
+B0 Period (s) = 0.763
+# OCM signals * ocm_period = 0.74 seconds
+['datasets/OCMDATA/Scan_3_OCM_Data.mat'
+ 'datasets/B0DATA/B0dyn_scan3_processed.mat'] OCM window data shape: (4, 170, 197, 75)
+B0 data shape: (4, 170, 1464)
+
+
+OCM frequency = 100.0 Hz
+b0 frequency = 1.4598540145985388 Hz
+OCM frequency std = 4.4555958862654946e-14
+B0frequency std = 9.746538369909138e-14
+OCM Period (s) = 0.01
+B0 Period (s) = 0.6850000000000006
+# OCM signals * ocm_period = 0.67 seconds
+['datasets/OCMDATA/Scan_4_OCM_Data.mat'
+ 'datasets/B0DATA/B0dyn_scan4_processed.mat'] OCM window data shape: (4, 170, 197, 67)
+B0 data shape: (4, 170, 1464)
+
+REMARKS:
+
+    - OCM DATA: [Scan #, B0 signal number, OCM window for each B0]
+    - B0 DATA: [Scan #, B0 signal number, B0 signal]
+
+130.7602, 132.7521, 165.7718, 117.3450, 158.9871,  82.2856, 126.7284,
+         61.0029,  98.2312,  47.4994,  91.2928,  38.6872,  92.1897,  32.7212,
+         81.3622,  31.8811,  82.4355,  40.3810,  49.2477,  37.2704,  38.9056,
+         51.3101,  44.4525,  94.6085,  59.1978, 135.7535,  76.7617, 160.7621,
+        106.2247, 210.1453, 139.5170, 263.6574, 158.8278, 278.7057,  21.7258,
+         45.4965,  23.7419,  40.2639,  22.9314,  32.7431,  24.8017,  27.8533,
+         17.6402,  21.8794,  23.4497,  20.8336,  26.7565,  20.6383,  20.7726,
+         18.9239,  21.3823, 225.5586, 266.3651, 304.6161, 317.8613, 348.7832,
+        296.4281, 311.0966, 249.0721, 260.6430, 189.5440, 239.1038, 163.6450,
+        230.8588, 144.8056, 210.2129, 132.0864, 183.6877, 122.1479, 105.5256,
+        132.0874, 134.5330, 153.8260, 149.3821, 169.5637, 167.0625, 180.4787,
+        167.0197, 179.9446, 176.3684, 143.0605, 144.1371, 100.7941, 109.7452,
+         62.3911,  21.7061,  12.6309,  19.3637,  14.2010,  18.9991,   8.9043,
+          7.8958,   5.8389,  10.1310,  10.3662,  11.5278,  28.3135,  21.3951,
+         45.8905,  45.8067,  64.4768,  71.8810, 330.7632, 251.5626, 285.9789,
+        229.6036, 241.1015, 166.9313, 198.8706, 156.4062, 176.2314, 126.2134,
+        114.9476,  92.9747,  75.7136,  58.2133,  42.6148,  28.5780,  37.1111,
+        151.0017, 135.7482,  93.7826, 124.5552,  73.2680,  98.4550,  45.5381,
+         79.8699,  29.7435,  59.6714,  18.3268,  37.1782,  13.9563,  21.6760,
+          8.5035,  21.2923,   7.8752,  20.1601,  19.5007,  23.1729,  24.0205,
+         30.1528,  32.9765,  24.9574,  23.8685,  19.2455,  32.1737,  25.2250,
+         44.4512,  41.1342,  64.3202,  64.4179,  79.5219,  89.1574, 153.6837,
+        111.6276, 118.6473,  82.6977,  78.5388,  55.9550,  46.1830,  31.4698,
+         25.4266,  26.4310,  14.7214,  25.7719,  15.6236,  22.7429,  30.6113,
+         32.6200,  66.6276
