@@ -280,13 +280,13 @@ print("Device:", device)
 # -------------------------
 
 training_data_ocm = torch.as_tensor(
-    np.abs(all_ocm_windows[0]),
+    np.abs(all_ocm_windows[1]),
     dtype=torch.float64,
     device=device
 )
 
 test_data_ocm = torch.as_tensor(
-    np.abs(all_ocm_windows[2]),
+    np.abs(all_ocm_windows[3]),
     dtype=torch.float64,
     device=device
 )
@@ -472,7 +472,11 @@ def eq7(U, UT, sigma_ocm):
 
 
 def E_i(I, U, UT, sigma_ocm, h):
-
+    '''
+    I - 170 training images
+    U - 170 training OCM windows
+    UT - new OCM window
+    '''
     diff = U - UT
 
     d2 = torch.sum(
@@ -485,12 +489,9 @@ def E_i(I, U, UT, sigma_ocm, h):
         dim=0
     )
 
-    return torch.sum(
-        weights.reshape(
-            (-1,) + (1,) * (I.ndim - 1)
-        ) * I,
-        dim=0
-    )
+    weights = weights.unsqueeze(1)
+
+    return torch.sum(weights * I, dim=0)
 # Run KDE on test samples
 # -------------------------
 
